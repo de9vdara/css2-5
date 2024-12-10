@@ -1,34 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    height: 48px;
+
+header {
     padding: 12px 32px;
+    background-color: #FBF9FF;
 }
-header img{
+
+header img {
     width: 175px;
     display: inline-block;
+    vertical-align: middle;
 }
-#list{
+
+#list {
     display: inline-block;
     list-style-type: none;
     margin: auto;
+    vertical-align: middle;
+    padding-top: 13px;
 }
-header li{
+
+#list li {
     list-style-type: none;
+    display: inline-block;
+    margin-left: 20px;
+    color: #323232;
+    font-size: 18px;
 }
-#navigationList{
+
+button {
+    border-radius: 8px;
+    border: 1px solid #6941C6;
+    background: #6941C6;
+    padding: 8px 16px;
+    color: #FFF;
+}
+
+#navigationList {
     display: inline-block;
     height: 48px;
+    text-align: center;
+    /* max-width: 1575px; */
+    width: 80%;
+    vertical-align: middle;
 }
-#mainContainer{
+
+#mainContainer {
     text-align: center;
     width: 100%;
     margin-bottom: 240px;
 }
-#mainPurpleFraim{
+
+#mainPurpleFrame {
     display: inline-block;
     width: 100%;
     max-width: 1300px;
@@ -36,25 +62,32 @@ header li{
     margin-top: 90px;
     padding: 80px;
 }
-#pricingPlan{
+
+#pricingPlan {
     text-align: center;
     margin-bottom: 32px;
 }
-#planParag{
+
+#planParag {
     color: #535862;
     font-size: 24px;
     text-align: center;
 }
-#pricingHeader{ 
+
+#pricingHeader {
     font-weight: bold;
     font-size: 40px;
     color: #181D27;
     padding-bottom: 20px;
 }
-#pricingPlanMainFrame{
+
+#pricingPlanMainFrame {
     text-align: center;
 }
-#firstPlanFrame, #secondPlanFrame, #thirdPlanFrame{
+
+#firstPlanFrame,
+#secondPlanFrame,
+#thirdPlanFrame {
     vertical-align: top;
     text-align: center;
     padding: 30px 25px;
@@ -66,8 +99,9 @@ header li{
     max-width: 300px;
     width: 100%;
 }
-#basicPlanFrame, #businessPlanFrame
-{
+
+#basicPlanFrame,
+#businessPlanFrame {
     text-align: center;
     display: inline-block;
     border-radius: var(--radius-full, 9999px);
@@ -77,7 +111,8 @@ header li{
     padding: 4px 8px;
     margin-bottom: 20px;
 }
-#enterprisePlanFrame{
+
+#enterprisePlanFrame {
     text-align: center;
     display: inline-block;
     border-radius: var(--radius-full, 9999px);
@@ -87,86 +122,128 @@ header li{
     padding: 4px 8px;
     margin-bottom: 20px;
 }
-#basicPlanText, #businessPlanText,
-#enterprisePlanText{
+
+#basicPlanText,
+#businessPlanText,
+#enterprisePlanText {
     color: #6941C6;
     font-size: 14px;
     display: inline-block;
 }
-#planDescriptionMainFrame{
+
+#planDescriptionMainFrame {
     text-align: center;
 }
-#priceText, #planPrice, #planPriceText{
+
+#priceText,
+#planPrice,
+#planPriceText {
     font-size: 48px;
     color: #181D27;
     font-weight: bold;
     padding-bottom: 8px;
 }
-#simpleTeext, #planPriceParag, 
-#planPriceSubText{
+
+#simpleTeext,
+#planPriceParag,
+#planPriceSubText {
     font-size: 16px;
     color: #535862;
     padding-bottom: 16px;
 }
-#getStartedFrame, #getStartedSecondFrame,
-#getStartedThirdFrame{
+
+#getStartedFrame,
+#getStartedSecondFrame,
+#getStartedThirdFrame {
     border-radius: var(--radius-md, 8px);
     border: 2px solid rgba(255, 255, 255, 0.12);
     background: #7F56D9;
     padding: 12px 18px;
     margin-bottom: 12px;
 }
-#getStratedText, #getStartedParag,
-#getStartedTextt{
+
+#getStratedText,
+#getStartedParag,
+#getStartedTextt {
     color: #FFF;
     font-size: 16px;
     font-weight: 600;
 }
-#chatToSalesFrame, #chatToSalesSecondFrame,
-#chatToSalesThirdsFrame{
+
+#chatToSalesFrame,
+#chatToSalesSecondFrame,
+#chatToSalesThirdsFrame {
     border-radius: var(--radius-md, 8px);
     border: 1px solid #D5D7DA;
     background: #FFF;
     margin-bottom: 32px;
     padding: 12px 18px;
 }
-#chatToSalesText, #chatToSalesParag,
-#chatToSalesTextt{
+
+#chatToSalesText,
+#chatToSalesParag,
+#chatToSalesTextt {
     font-size: 16px;
     color: #414651;
     font-weight: 600;
 }
+
 #firstDetailedPlanDescrptionFrame,
 #secondDetailedPlanDescrptionFrame,
-#thirdDetailedPlanDescrptionFrame{
+#thirdDetailedPlanDescrptionFrame {
     width: 250px;
     border-top: 1px solid #E9EAEB;
     text-align: left;
     padding-top: 16px;
 }
-#firstAdvantage, #secondAdvantage, #thirdAdvantage,
-#fourthAdvantage, #fifthAdvantage, #fifthCheck,
-#fourthCheck, #thirdCheck, #secondCheck,
-#firstCheck, #firstCheckpoint, #secondCheckpoint,
-#thirdCheckpoint, #fourthCheckpoint, #fifthCheckpoint{
+
+#firstAdvantage,
+#secondAdvantage,
+#thirdAdvantage,
+#fourthAdvantage,
+#fifthAdvantage,
+#fifthCheck,
+#fourthCheck,
+#thirdCheck,
+#secondCheck,
+#firstCheck,
+#firstCheckpoint,
+#secondCheckpoint,
+#thirdCheckpoint,
+#fourthCheckpoint,
+#fifthCheckpoint {
     width: 16px;
     height: 16px;
     margin-bottom: 12px;
 }
-#firstOne, #secondOne, #thirdOne, #fourthOne,
-#fifthOne, #first, #second, #third,
-#fourth, #fifth, #one, #two, #three,
-#four, #five{
+
+#firstOne,
+#secondOne,
+#thirdOne,
+#fourthOne,
+#fifthOne,
+#first,
+#second,
+#third,
+#fourth,
+#fifth,
+#one,
+#two,
+#three,
+#four,
+#five {
     vertical-align: top;
     color: #535862;
     font-size: 15px;
     display: inline-block;
 }
-#secondPlanFrame{
+
+#secondPlanFrame {
     margin-left: 32px;
     margin-right: 32px;
 }
-#frequentlyAskedMainFraim{
+
+#frequentlyAskedMainFraim {
     width: 100%;
     max-width: 1400px;
     background-color: #FFF;
@@ -175,25 +252,29 @@ header li{
     background: #FFF;
     padding: 28px 0px;
 }
-#innerFrame{
-    text-align: center;/*aq  rom vwer teqstic mecentreba*/
+
+#innerFrame {
+    text-align: center;
+    /*aq  rom vwer teqstic mecentreba*/
     display: inline-block;
     width: 100%;
     max-width: 1100px;
 }
-#mainHeader{
+
+#mainHeader {
     font-weight: 800;
     font-size: 40px;
     color: #181D27;
     padding-bottom: 28px;
 }
-#frequentlyParag{
+
+#frequentlyParag {
     column-rule: #535862;
     font-size: 24px;
     padding-bottom: 28px;
 }
 
-#greyContainer{
+#greyContainer {
     vertical-align: middle;
     text-align: left;
     display: inline-block;
@@ -204,66 +285,87 @@ header li{
     padding: 28px;
     margin-bottom: 25px;
 }
-#arrow{
+
+#arrow {
     display: inline-block;
-    vertical-align: middle;
     width: 24px;
     height: 24px;
 }
-#freeTrial{
+
+#freeTrial {
     display: inline-block;
     color: #181D27;
     font-size: 16px;
     padding-bottom: 8px;
     vertical-align: top;
 }
-#freeTrialPar{
+
+#freeTrialPar {
     vertical-align: top;
     display: inline-block;
     font-size: 16px;
     color: #535862;
 }
-#greyContentFrame{
+
+#greyContentFrame {
     text-align: left;
-    vertical-align: middle;
     width: 500px;
+    display: inline-block;
 }
-#redContainer{
+
+#greyArrow {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#redContainer {
     vertical-align: middle;
     text-align: left;
     display: inline-block;
     width: 100%;
     max-width: 768px;
     border-radius: var(--spacing-xl, 16px);
-border: 2px solid #FF2323;
-background: #FFE5E5;
+    border: 2px solid #FF2323;
+    background: #FFE5E5;
     padding: 28px;
     margin-bottom: 25px;
 }
-#arrow{
+
+#arrow {
     display: inline-block;
     vertical-align: middle;
     width: 24px;
     height: 24px;
 }
-#planChange{
+
+#planChange {
     display: inline-block;
     color: #181D27;
     font-size: 16px;
     padding-bottom: 8px;
 }
-#planPar{
+
+#planPar {
     vertical-align: top;
     display: inline-block;
     font-size: 16px;
     color: #535862;
 }
-#redContentFrame{
+
+#redContentFrame {
     text-align: left;
-    vertical-align: middle;
     width: 500px;
+    display: inline-block;
 }
-#purpleContainer{
+
+#redArrow {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#purpleContainer {
     vertical-align: middle;
     text-align: left;
     display: inline-block;
@@ -275,32 +377,41 @@ background: #FFE5E5;
     padding: 28px;
     margin-bottom: 25px;
 }
-#arrow{
+
+#arrow {
     display: inline-block;
     vertical-align: middle;
     width: 24px;
     height: 24px;
 }
-#abtPolicy{
+
+#abtPolicy {
     display: inline-block;
     color: #181D27;
     font-size: 16px;
     padding-bottom: 8px;
 }
-#policyPar{
+
+#policyPar {
     vertical-align: top;
     display: inline-block;
     font-size: 16px;
     color: #535862;
 }
-#purpleContentFrame{
+
+#purpleContentFrame {
     text-align: left;
-    vertical-align: middle;
     width: 500px;
-    height: 104px;
+    display: inline-block;
 }
 
-#lightContainer{
+#purpleArrow {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#lightContainer {
     vertical-align: middle;
     text-align: left;
     display: inline-block;
@@ -312,31 +423,41 @@ background: #FFE5E5;
     padding: 28px;
     margin-bottom: 25px;
 }
-#arrow{
+
+#arrow {
     display: inline-block;
     vertical-align: middle;
     width: 24px;
     height: 24px;
 }
-#infoAndInvoice{
+
+#infoAndInvoice {
     display: inline-block;
     color: #181D27;
     font-size: 16px;
     padding-bottom: 8px;
 }
-#invoiceInfo{
+
+#invoiceInfo {
     vertical-align: top;
     display: inline-block;
     font-size: 16px;
     color: #535862;
 }
-#lightContentFrame{
+
+#lightContentFrame {
     text-align: left;
-    vertical-align: middle;
     width: 500px;
-    height: 104px;
+    display: inline-block;
 }
-#blueContainer{
+
+#lightArrow {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#blueContainer {
     vertical-align: middle;
     text-align: left;
     display: inline-block;
@@ -344,35 +465,46 @@ background: #FFE5E5;
     max-width: 768px;
     border-radius: var(--spacing-xl, 16px);
     border: 4px solid #326DFF;
-    
+
     background: #DCE6FF;
     padding: 28px;
     margin-bottom: 25px;
 }
-#arrow{
+
+#arrow {
     display: inline-block;
     vertical-align: middle;
     width: 24px;
     height: 24px;
 }
-#billInfo{
+
+#billInfo {
     display: inline-block;
     color: #181D27;
     font-size: 16px;
     padding-bottom: 8px;
 }
-#infoAbtBilling{
+
+#infoAbtBilling {
     vertical-align: top;
     display: inline-block;
     font-size: 16px;
     color: #535862;
 }
-#blueContentFrame{
+
+#blueContentFrame {
     text-align: left;
-    vertical-align: middle;
     width: 500px;
+    display: inline-block;
 }
-#pinkContainer{
+
+#blueArrow {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+#pinkContainer {
     vertical-align: middle;
     text-align: left;
     display: inline-block;
@@ -384,38 +516,50 @@ background: #FFE5E5;
     padding: 28px;
     margin-bottom: 25px;
 }
-#arrow{
+
+#arrow {
     display: inline-block;
     vertical-align: middle;
     width: 24px;
     height: 24px;
 }
-#accEmail{
+
+#accEmail {
     display: inline-block;
     color: #181D27;
     font-size: 16px;
     padding-bottom: 8px;
 }
-#changeEmail{
+
+#changeEmail {
     vertical-align: top;
     display: inline-block;
     font-size: 16px;
     color: #535862;
 }
-#pinkContentFrame{
+
+#pinkContentFrame {
     text-align: left;
-    vertical-align: middle;
     width: 500px;
-    height: 104px;
+    display: inline-block;
 }
-#frequentlyHeaderFrame{
-   text-align: center;
+
+#pinkArrow {
+    display: inline-block;
+    vertical-align: top;
 }
-#containersMainFrame{
-    width: 1000px;/*rato ar icentreba div?*/
+
+#frequentlyHeaderFrame {
+    text-align: center;
+}
+
+#containersMainFrame {
+    width: 1000px;
+    /*rato ar icentreba div?*/
     margin: 0 auto;
 }
-#ourReviewsMainFrame{
+
+#ourReviewsMainFrame {
     margin-top: 65px;
     padding: 32px;
     border-radius: 24px;
@@ -423,29 +567,34 @@ background: #FFE5E5;
     background-color: #FFF;
     max-width: 1400px;
 }
-#reviews{
+
+#reviews {
     text-align: center;
     font-weight: 600;
     font-size: 40px;
     color: #181D27;
     padding-bottom: 20px;
 }
-#reviewParag{
+
+#reviewParag {
     text-align: center;
     color: #535862;
     font-size: 24px;
     padding-bottom: 64px;
 }
-#clientReviewsMainFrame{
 
-}
-#firstRowFrame{
+#clientReviewsMainFrame {}
+
+#firstRowFrame {
     width: 100%;
     max-width: 1500px;
     vertical-align: top;
 }
-#firstClientFrame, #secondClientFrame, 
-#thirdClienFrame, #fourthClientsFrame{
+
+#firstClientFrame,
+#secondClientFrame,
+#thirdClienFrame,
+#fourthClientsFrame {
     padding: 30px;
     display: inline-block;
     border-radius: var(--radius-xl, 12px);
@@ -455,58 +604,83 @@ background: #FFE5E5;
     margin-bottom: 25px;
     vertical-align: top;
 }
+
 #siennarReviewFrame,
-#rileyReview{
+#rileyReview {
     text-align: left;
     margin-bottom: 60px;
 }
-#caitliynReviews, #ollyReviews{
+
+#caitliynReviews,
+#ollyReviews {
     text-align: left;
     margin-bottom: 40px;
 }
-#siennasText, #caitlinReview,
-#olllyReview, #rileyReviewss{
+
+#siennasText,
+#caitlinReview,
+#olllyReview,
+#rileyReviewss {
     color: #181D27;
     font-weight: 700;
     font-size: 20px;
 }
-#siennaAvatarFrame, #cailynSocialFrame,
-#ollySocials{
+
+#siennaAvatarFrame,
+#cailynSocialFrame,
+#ollySocials {
     margin-right: 40px;
-    width: fit-content;
     margin-left: 12px;
     display: inline-block;
     vertical-align: top;
 }
-#rileySocials{
+
+#rileySocials {
     margin-right: 15px;
     width: fit-content;
     margin-left: 12px;
     display: inline-block;
     vertical-align: top;
 }
-#name, #caitlyn, #olyNames, #rileyNameee{
+
+#name,
+#caitlyn,
+#olyNames,
+#rileyNameee {
     vertical-align: top;
     display: inline-block;
     color: #181D27;
     font-size: 18px;
     font-weight: 600;
 }
-#blue, #tickk, #ticck, #tickIcon{
+
+#blue,
+#tickk,
+#ticck,
+#tickIcon {
     vertical-align: top;
     display: inline-block;
 }
-#manager, #COO, #Designer, #Engineer{
+
+#manager,
+#COO,
+#Designer,
+#Engineer {
     font-size: 16px;
     color: #535862;
 }
-#warpspeedLogo{
+
+#warpspeedLogo {
     vertical-align: top;
 }
-#caitliynReviews{
+
+#caitliynReviews {
     text-align: left;
 }
-#odeoLogo, #nietyscheLogo, #quartzLogo{
+
+#odeoLogo,
+#nietyscheLogo,
+#quartzLogo {
     vertical-align: top;
     margin-left: 60px;
 }
